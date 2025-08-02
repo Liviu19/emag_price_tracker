@@ -87,6 +87,6 @@ def main():
 
     save_price(current_price, alert_sent)
     print(f"Price saved: {current_price} RON | Alert Sent: {alert_sent}")
-    print(f"Threshold: {PRICE_ALERT_THRESHOLD} RON")
+    print(f"Threshold price: {PRICE_ALERT_THRESHOLD} RON")
 if __name__ == "__main__":
     main()
